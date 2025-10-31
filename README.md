@@ -59,12 +59,11 @@ credit_risk_modelling/
 
 1. **Data Preparation**  
    - Loaded `cleaned_data.csv`  
-   - Dropped irrelevant columns (`cust_id`, `city`, `zipcode`, etc.)  
-   - Created new engineered features (LTI, DMTLM, DPD)
+   - Dropped irrelevant columns   
+   - Created new engineered features 
 
 2. **Feature Selection**  
-   - Used Variance Inflation Factor (VIF) to handle multicollinearity  
-   - Selected features with Information Value (IV ≥ 0.02)
+   - Used Label Encoder to convert into Numerical Variable
 
 3. **Model Training & Evaluation**  
    - Split data (80-20)  
