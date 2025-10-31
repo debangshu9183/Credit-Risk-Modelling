@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -78,4 +79,5 @@ if st.button("🔍 Predict Credit Risk"):
 # Footer
 # =============================
 st.divider()
-st.caption("Developed by Debangshu Sadhukhan | MSc Data Science | HSBC Credit Risk Project")
+st.caption("Developed by Debangshu Sadhukhan | MSc Data Science" )
+
