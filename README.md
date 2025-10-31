@@ -51,8 +51,7 @@ credit_risk_modelling/
 ├── app_screenshot.png
 └── shap_summary.png
 
-markdown
-Copy code
+
 
 ---
 
@@ -97,21 +96,3 @@ Copy code
 
 ---
 
-## ⚙️ How to Run Locally
-
-### Step 1 — Clone the Repository
-```bash
-git clone https://github.com/debangshu9183/Credit-Risk-Modelling.git
-cd Credit-Risk-Modelling
-Step 2 — Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-Step 3 — Launch Streamlit App
-bash
-Copy code
-streamlit run app.py
-Then open your browser at http://localhost:8501
-
-📊 Model Evaluation Metrics (Example)
-Metric	Logistic Regression	Random Forest
